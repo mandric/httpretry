@@ -13,8 +13,8 @@
 // Singleton Client
 //
 // Using singleton client to maximize connection pool usage, reuse connections
-// and minimize new file handles used.  This improves support for high
-// workdloads in resource constrained environments like lambdas.
+// and minimize new file handles used.  This improves support for heavy
+// workloads in resource constrained environments like lambdas.
 //
 // TODO keep http stats (req/res/code counts) or find library that can
 
